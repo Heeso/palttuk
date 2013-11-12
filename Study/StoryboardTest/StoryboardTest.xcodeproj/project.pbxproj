@@ -21,6 +21,9 @@
 		089328D5183109F900EB84FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 089328B7183109F900EB84FB /* UIKit.framework */; };
 		089328DD183109F900EB84FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089328DB183109F900EB84FB /* InfoPlist.strings */; };
 		089328DF183109F900EB84FB /* StoryboardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 089328DE183109F900EB84FB /* StoryboardTestTests.m */; };
+		08E47D3A18310FB800E6CD3F /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E47D3918310FB800E6CD3F /* PlayerViewController.m */; };
+		08E47D3D1831100600E6CD3F /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E47D3C1831100600E6CD3F /* Player.m */; };
+		08E47D43183116FC00E6CD3F /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08E47D42183116FC00E6CD3F /* PlayerDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		089328DA183109F900EB84FB /* StoryboardTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardTestTests-Info.plist"; sourceTree = "<group>"; };
 		089328DC183109F900EB84FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		089328DE183109F900EB84FB /* StoryboardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardTestTests.m; sourceTree = "<group>"; };
+		08E47D3818310FB800E6CD3F /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		08E47D3918310FB800E6CD3F /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		08E47D3B1831100600E6CD3F /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		08E47D3C1831100600E6CD3F /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		08E47D41183116FC00E6CD3F /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		08E47D42183116FC00E6CD3F /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				089328C9183109F900EB84FB /* ViewController.m */,
 				089328CB183109F900EB84FB /* Images.xcassets */,
 				089328BA183109F900EB84FB /* Supporting Files */,
+				08E47D3818310FB800E6CD3F /* PlayerViewController.h */,
+				08E47D3918310FB800E6CD3F /* PlayerViewController.m */,
+				08E47D3B1831100600E6CD3F /* Player.h */,
+				08E47D3C1831100600E6CD3F /* Player.m */,
+				08E47D41183116FC00E6CD3F /* PlayerDetailsViewController.h */,
+				08E47D42183116FC00E6CD3F /* PlayerDetailsViewController.m */,
 			);
 			path = StoryboardTest;
 			sourceTree = "<group>";
@@ -250,8 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				089328CA183109F900EB84FB /* ViewController.m in Sources */,
+				08E47D3A18310FB800E6CD3F /* PlayerViewController.m in Sources */,
+				08E47D43183116FC00E6CD3F /* PlayerDetailsViewController.m in Sources */,
 				089328C4183109F900EB84FB /* AppDelegate.m in Sources */,
 				089328C0183109F900EB84FB /* main.m in Sources */,
+				08E47D3D1831100600E6CD3F /* Player.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "StoryboardTest/StoryboardTest-Prefix.pch";
 				INFOPLIST_FILE = "StoryboardTest/StoryboardTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +480,7 @@
 				089328E4183109F900EB84FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		089328E5183109F900EB84FB /* Build configuration list for PBXNativeTarget "StoryboardTestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				089328E7183109F900EB84FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
