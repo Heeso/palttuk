@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC3B9559-C638-42BF-8BD6-129592798630</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StackOverflow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B87A6376-6C30-4726-AC20-E317F85E268B</key>
+		<string>https://github.com/Heeso/palttuk.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Study/StackOverflow/StackOverflow.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B87A6376-6C30-4726-AC20-E317F85E268B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Heeso/palttuk.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B87A6376-6C30-4726-AC20-E317F85E268B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B87A6376-6C30-4726-AC20-E317F85E268B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StackOverflow</string>
+		</dict>
+	</array>
+</dict>
+</plist>
